@@ -4,15 +4,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@android:color/holo_orange_dark"
+    android:background="@drawable/homebg"
     android:outlineAmbientShadowColor="@android:color/darker_gray">
 
     <Button
         android:layout_width="170dp"
         android:layout_height="wrap_content"
-        android:text="SENTENCES RECOGNITION"
+        android:text="SENTENCES SEQUENCING"
         android:layout_gravity="center"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="200dp"
         android:id="@+id/btnsent"/>
 
     <Button
@@ -22,5 +22,18 @@
         android:layout_gravity="center"
         android:id="@+id/btnpic"/>
 
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="WORD MAKING"
+        android:layout_gravity="center"
+        android:id="@+id/btnwrd"/>
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="RECOGNIZE AND MATCH"
+        android:layout_gravity="center"
+        android:id="@+id/btnmatch"/>
 
 </LinearLayout>
